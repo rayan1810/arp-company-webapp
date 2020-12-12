@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Sample from "./components/samples";
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Demo Sample
         </a>
+        <Sample data="Actual Retail Price WEBSITE" />
       </header>
     </div>
   );
