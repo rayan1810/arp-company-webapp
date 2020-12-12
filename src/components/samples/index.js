@@ -1,5 +1,3 @@
-import react from "react";
-
 export function Sample(props) {
   // component name always start with Capital Letter
   return (
