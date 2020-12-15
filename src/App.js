@@ -5,16 +5,15 @@ import { Sample, ModiNavbar, ModiDropdown, ModiCard } from "./components";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header"> */}
         <ModiNavbar dropdown={<ModiDropdown dropdownItems={["Add new product", "Manage"]} />} />
-        <div className="row w-100">
-          <div className="col-md-8 bg-success">
+        <div className="row w-100 mt-5 pt-4">
+          <div className="col-md-8">
             <ModiCard></ModiCard>
           </div>
           <div className="col-md-4 bg-primary">lol</div>
         </div>
-
-      </header>
+      {/* </header> */}
     </div>
   );
 }
