@@ -17,7 +17,7 @@ export function ModiNavbar(props) {
       </Form>
       <Form inline>
         <div className="mr-auto">
-          <Button variant="success">Login</Button>
+          <Button variant="danger">Logout</Button>
         </div>
       </Form>
     </Navbar>

@@ -1,0 +1,8 @@
+.item:hover{
+    transform: scaleY(1.1) scaleX(1.01);
+    background-color: #f8d7d9 !important;
+    text-decoration: underline !important;
+}
+.inneritem{
+    text-decoration: inherit;
+}
